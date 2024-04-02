@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Open+Sans:ital,wght@0,300..800&display=swap");
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/img/hero-phoebe-Tazer-pfp.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 2s;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-text p {
+  font-family: "Kode Mono", monospace;
+  max-width: 700px;
+  margin: 10px auto 20px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.hero-btn {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 7px;
+  background: #fa00f2;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.hero-btn:hover {
+  transform: scale(1.2);
+}
+
+.hero-btn:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #fa00f2;
+}
+
+/***** Media query ******/
+
+@media (max-width: 850px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-text h1 {
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .hero-text p {
+    max-width: 300px; /* Adjusted from 14px */
+    margin: 15px auto 30px;
+  }
+  .hero-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

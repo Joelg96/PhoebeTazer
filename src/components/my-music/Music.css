@@ -1,0 +1,13 @@
+.music {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
