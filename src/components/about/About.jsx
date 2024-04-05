@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import "./About.css";
 import about_profile from "../../assets/img/about-profile-img.webp";
@@ -7,17 +6,20 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about_profile} alt="" className="about-img"></img>
+        <img
+          src={about_profile}
+          alt="Phoebe Tazer profile in colored jacket with headphones on smiling."
+          className="about-img"
+        ></img>
       </div>
       <div className="about-right">
         <h3>About Me</h3>
         <h2>Hi! I&apos;m Phoebe Tazer</h2>
         <p>
-          This is your bio. FILL IN WITH YOUR WORDS. As an audio engineer, I am
-          deeply passionate about shaping the sonic landscapes of music and
-          sound. With years of experience in recording, mixing, and mastering, I
-          have honed my skills to deliver top-notch audio quality across various
-          genres and projects.
+          As an audio engineer, I am deeply passionate about shaping the sonic
+          landscapes of music and sound. With years of experience in recording,
+          mixing, and mastering, I have honed my skills to deliver top-notch
+          audio quality across various genres and projects.
         </p>
         <p>
           My commitment to perfection drives me to continually refine my craft

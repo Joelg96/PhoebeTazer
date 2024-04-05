@@ -4,7 +4,6 @@ import envolope_icon from "../../assets/img/contact-mail-icon.png";
 import location_icon from "../../assets/img/contact-location-icon.png";
 import instagram_icon from "../../assets/img/contact-instagram-icon.svg";
 import soundcloud_icon from "../../assets/img/contact-soundcloud-icon.svg";
-import linkedin_icon from "../../assets/img/contact-linkedin-icon.svg";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -47,7 +46,7 @@ const Contact = () => {
             <img
               className="contact-icon"
               src={envolope_icon}
-              alt="envolope icon"
+              alt="envolope icon next to email address."
             />
             PhoebeTazer@gmail.com
           </li>
@@ -55,7 +54,7 @@ const Contact = () => {
             <img
               className="contact-icon"
               src={location_icon}
-              alt="envolope icon"
+              alt="location icon next to Chico, CA."
             />
             Chico, CA
           </li>
@@ -64,7 +63,7 @@ const Contact = () => {
               <img
                 className="contact-icon"
                 src={instagram_icon}
-                alt="Instagram Icon"
+                alt="Instagram Icon for Phoebe Tazer's profile."
               />
             </a>
             <a href="https://soundcloud.com/user-434665739">

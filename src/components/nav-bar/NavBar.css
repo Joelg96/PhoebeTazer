@@ -61,7 +61,7 @@ nav ul li a:not(.contact-btn):hover {
     top: 0;
     right: 0px;
     bottom: 0;
-    background-color: rgba(45, 45, 45, 0.7);
+    background-color: rgba(45, 45, 45, 0.8);
     z-index: -1;
     width: 200px;
     padding-top: 70px;

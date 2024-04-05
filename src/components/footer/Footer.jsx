@@ -14,7 +14,7 @@ const Footer = () => {
           <img
             className="footer-icon"
             src={linkedin_icon}
-            alt="LinkedIn Icon"
+            alt="LinkedIn Icon for Joel Goode, the developer."
           />
         </a>
       </ul>

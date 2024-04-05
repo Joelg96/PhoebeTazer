@@ -8,6 +8,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 40px;
+}
+
+.song-container {
+  align-items: center;
 }
