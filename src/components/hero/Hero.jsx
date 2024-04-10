@@ -6,7 +6,10 @@ const Hero = () => {
     <div className="hero container">
       <div className="hero-text animate__animated animate__fadeInDown">
         <h1>Producing elite beats and sounds</h1>
-        <p>Description. You need to fill this in, or it can be removed.</p>
+        <p>
+          Creative professional experienced in audio engineering, studio
+          production and live music.
+        </p>
         <button className=" btn hero-btn">
           <strong className="btn-text">Explore more</strong>
         </button>
