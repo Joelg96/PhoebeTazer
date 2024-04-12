@@ -10,10 +10,6 @@ To view the portfolio, visit the link:
 
 If you're interested in working with Phoebe Tazer use the previous link and go to the CONTACT section.
 
-### Phone
-
-21460589113
-
 ## License
 
 While the code is available to the public, this site is strictly for use by Phoebe Tazer.
